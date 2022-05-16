@@ -1038,19 +1038,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\royal\\.nuget\\packages\\": {}
+    "C:\\Users\\Lenovo pc-1\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\royal\\source\\repos\\Restaurentdemo\\Restaurentdemo\\Restaurentdemo.csproj",
+      "projectUniqueName": "E:\\.NET-React-Restaurent-management\\Backend C# .NET\\Restaurentdemo\\Restaurentdemo.csproj",
       "projectName": "Restaurentdemo",
-      "projectPath": "C:\\Users\\royal\\source\\repos\\Restaurentdemo\\Restaurentdemo\\Restaurentdemo.csproj",
-      "packagesPath": "C:\\Users\\royal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\royal\\source\\repos\\Restaurentdemo\\Restaurentdemo\\obj\\",
+      "projectPath": "E:\\.NET-React-Restaurent-management\\Backend C# .NET\\Restaurentdemo\\Restaurentdemo.csproj",
+      "packagesPath": "C:\\Users\\Lenovo pc-1\\.nuget\\packages\\",
+      "outputPath": "E:\\.NET-React-Restaurent-management\\Backend C# .NET\\Restaurentdemo\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\royal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lenovo pc-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1058,7 +1063,10 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/actingoffice/index.json": {},
+        "https://nuget.pkg.github.com/mukesh-capsitech/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -1110,5 +1118,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Your request could not be authenticated by the GitHub Packages service. Please ensure your access token is valid and has the appropriate scopes configured."
+    }
+  ]
 }

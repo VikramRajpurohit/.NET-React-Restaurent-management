@@ -54,23 +54,57 @@ namespace Restaurentdemo.Controllers
             }
         }
 
-        [HttpPost("{customerId:length(24)}")]
+        //
+        // Summary: This is for update by id but here no need for customer updation
+        //
+        //[HttpPost("{customerId:length(24)}")]
 
-        public async Task<IActionResult> Update( String customerId, Customer updatedcustomer )
-        {
-            var customer = await _customer.GetAsync(customerId);
+        //public async Task<IActionResult> Update( String customerId, Customer updatedcustomer )
+        //{
+        //    var customer = await _customer.GetAsync(customerId);
 
-            if(customer == null)
-            {
-                return NotFound();
-            }
+        //    if(customer == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            updatedcustomer.customerId = customerId;
+        //    updatedcustomer.customerId = customerId;
 
-            await _customer.UpdateAsync(customerId,updatedcustomer);
-            return NoContent();
-            
-        }
-        
-    }   
+        //    await _customer.UpdateAsync(customerId,updatedcustomer);
+        //    return NoContent();
+        //}
+
+        //
+        // Summary: (for Practice)  This is for delete by Id or delete by Name but here no need for customer updation
+        //
+        //[HttpDelete("{customerId:length(24)}")]
+        //public async Task<IActionResult> Delete(String customerId)
+        //{
+        //    var customer = await _customer.GetAsync(customerId);
+
+        //    if (customer is null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    await _customer.RemoveAsync(customer.customerId);
+        //    return NoContent();
+        //}
+
+        //[HttpDelete]
+        //public async Task<IActionResult> DeleteName(String customerName)
+        //{
+        //    var customer = await _customer.GetAsyncName(customerName);
+
+        //    if(customer is null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    await _customer.RemoveAsync(customer.customerId);
+        //    return NoContent();
+        //}
+
+
+    }
 }
