@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w0i6A3MoXahGxGqOt7CprRUEgrTJJ5515rYuZqJUJXBTPwWKG45a1sGxbTWkT9gTHGs9C6jGnZdhSH4wXlPzCQ==",
+  "dgSpecHash": "0XwE7Z9hat5rkdqnfYBZ0efiR7T856Kbx7Tj5cMC1oZKPaDlAYOrdZvoeiWc0zwTae3gC1AZUPrY23CypWtYUQ==",
   "success": true,
-  "projectFilePath": "E:\\.NET-React-Restaurent-management\\Backend C# .NET\\Restaurentdemo\\Restaurentdemo.csproj",
+  "projectFilePath": "E:\\New folder\\.NET-React-Restaurent-management\\Backend C# .NET\\Restaurentdemo\\Restaurentdemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo pc-1\\.nuget\\packages\\dnsclient\\1.6.0\\dnsclient.1.6.0.nupkg.sha512",
     "C:\\Users\\Lenovo pc-1\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
@@ -31,12 +31,5 @@
     "C:\\Users\\Lenovo pc-1\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo pc-1\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Your request could not be authenticated by the GitHub Packages service. Please ensure your access token is valid and has the appropriate scopes configured."
-    }
-  ]
+  "logs": []
 }

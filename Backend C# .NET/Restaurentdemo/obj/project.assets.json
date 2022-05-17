@@ -1044,11 +1044,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\.NET-React-Restaurent-management\\Backend C# .NET\\Restaurentdemo\\Restaurentdemo.csproj",
+      "projectUniqueName": "E:\\New folder\\.NET-React-Restaurent-management\\Backend C# .NET\\Restaurentdemo\\Restaurentdemo.csproj",
       "projectName": "Restaurentdemo",
-      "projectPath": "E:\\.NET-React-Restaurent-management\\Backend C# .NET\\Restaurentdemo\\Restaurentdemo.csproj",
+      "projectPath": "E:\\New folder\\.NET-React-Restaurent-management\\Backend C# .NET\\Restaurentdemo\\Restaurentdemo.csproj",
       "packagesPath": "C:\\Users\\Lenovo pc-1\\.nuget\\packages\\",
-      "outputPath": "E:\\.NET-React-Restaurent-management\\Backend C# .NET\\Restaurentdemo\\obj\\",
+      "outputPath": "E:\\New folder\\.NET-React-Restaurent-management\\Backend C# .NET\\Restaurentdemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1118,13 +1118,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Your request could not be authenticated by the GitHub Packages service. Please ensure your access token is valid and has the appropriate scopes configured."
-    }
-  ]
+  }
 }
